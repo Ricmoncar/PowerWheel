@@ -39,7 +39,11 @@ class PowerWheel {
             skill: ['Clumsy', 'Regular Human', 'Amateur','Trained Fighter','Martial Artist','Expert Brawler', 'Black Belt', 'Tactical Genius','Planetary Champion','Precognitive Fighter','Reactive Evolution','Galactic Warrior','Plot Armor'],
             weapon: [
                 // --- Basic & Improvised ---
-                'Fists', 'Club', 'Staff', 'Throwing Rocks', 'Improvised Shield',
+                'Fists', 'Spiky Toothbrush', 'Clarinet', 'Guitar', 'Baseball bat', 'Lipstick', 'Club', 'Staff', 'Throwing Rocks', 'Improvised Shield',
+                'Rubber Chicken', 'Banana', 'Toaster', 'Umbrella', 'Frozen Fish', 'Squeaky Hammer', 'Plunger', 'Traffic Cone', 'Spoon', 'Rolling Pin',
+                'Sock Filled With Coins', 'Lawn Gnome', 'Bag of Marshmallows', 'Selfie Stick', 'Keyboard', 'Cactus', 'Pizza Cutter', 'Slipper', 'Teddy Bear',
+                'Water Balloon', 'Paintbrush', 'Toilet Brush', 'Garden Hose', 'Remote Control', 'Plastic Flamingo', 'Loaf of Bread', 'Pillow', 'Rubber Duck',
+                'Bag of Chips', 'Stapler', 'Shovel', 'Baguette', 'Cheese Grater', 'Fly Swatter', 'Mop', 'Old Boot', 'VHS Tape', 'Pineapple', 'Bubble Wand', 'Krispy Treat',
                 // --- Melee - Daggers & Short Blades ---
                 'Dagger', 'Knife', 'Kukri', 'Kris', 'Stiletto', 'Tanto', 'Seax', 'Parrying Dagger',
                 // --- Melee - Swords ---
@@ -54,7 +58,7 @@ class PowerWheel {
                 // --- Ranged - Firearms ---
                 'Hand Cannon', 'Arquebus', 'Flintlock Pistol', 'Musket', 'Blunderbuss', 'Revolver', 'Lever-Action Rifle', 'Pump-Action Shotgun', 'Bolt-Action Rifle', 'Submachine Gun', 'Assault Rifle',
                 // --- Higher Concepts ---
-                'Enchanted Weapon', 'Sentient Weapon', 'Energy Blade', 'Divine Bow', 'Reality-Bending Pencil', 'Cosmic Staff', 'Dimensional Sword', 'Time Manipulating Dagger', 'Quantum Gun', 'Multiversal Axe', 'Omnipotent Hammer'
+                'Kris`s Blade', 'Susie´s Axe', 'Enchanted Weapon', 'Sentient Weapon', 'Energy Blade', 'Divine Bow', 'Reality-Bending Pencil', 'Cosmic Staff', 'Dimensional Sword', 'Time Manipulating Dagger', 'Quantum Gun', 'Multiversal Axe', 'Omnipotent Hammer'
             ],
             elements: [
                 // --- Foundational ---
