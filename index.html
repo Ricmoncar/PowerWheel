@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerWheel - Final Edition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Wheel Section -->
+        <div class="wheel-section">
+            <div class="wheel-wrapper">
+                <canvas id="wheelCanvas" width="800" height="800"></canvas>
+                <div class="wheel-pointer"></div>
+                <div class="wheel-hub"></div>
+            </div>
+        </div>
+
+        <!-- Controls Section -->
+        <div class="controls-section">
+            <div class="panel">
+                <div class="panel-header">
+                    <h1 class="title">PowerWheel</h1>
+                    <button id="settingsBtn" class="btn-icon" title="Settings"><i class="fas fa-cog"></i></button>
+                </div>
+                <p class="subtitle">Design your destiny, then spin it.</p>
+
+                <div class="panel-section">
+                    <label for="items">Enter Items (one per line)</label>
+                    <textarea id="items" rows="8" placeholder="Wall Level
+Building Level
+..."></textarea>
+                </div>
+
+                <div class="panel-section">
+                    <label>Load a Preset</label>
+                    <div class="preset-grid">
+                        <button class="btn btn-preset" data-preset="strength">Strength</button>
+                        <button class="btn btn-preset" data-preset="speed">Speed</button>
+                        <button class="btn btn-preset" data-preset="magic">Magic</button>
+                        <button class="btn btn-preset" data-preset="iq">IQ</button>
+                    </div>
+                </div>
+
+                <div class="panel-section">
+                    <label>Custom Gradient</label>
+                    <div class="color-controls">
+                        <div class="color-picker-wrapper">
+                            <input type="color" id="startColor" value="#3c096c">
+                            <span>Start</span>
+                        </div>
+                        <div class="color-picker-wrapper">
+                            <input type="color" id="endColor" value="#f0abfc">
+                            <span>End</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-actions">
+                    <button id="updateBtn" class="btn btn-secondary">Update</button>
+                    <button id="spinBtn" class="btn btn-primary"><i class="fas fa-play"></i> Spin!</button>
+                </div>
+
+                <div id="winnerDisplay" class="winner-display">
+                    <span id="winnerText"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Settings</h2>
+                <button id="closeModalBtn" class="btn-icon">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-group">
+                    <label for="spinDuration">Spin Duration: <span id="spinDurationValue">12s</span></label>
+                    <input type="range" id="spinDuration" min="5" max="20" value="12" step="1">
+                </div>
+                <div class="setting-group">
+                    <label for="spinRevolutions">Revolutions: <span id="spinRevolutionsValue">15</span></label>
+                    <input type="range" id="spinRevolutions" min="5" max="30" value="15" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
