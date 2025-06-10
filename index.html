@@ -28,10 +28,13 @@
                 <p class="subtitle">i love gambling</p>
 
                 <div class="panel-section">
-                    <label for="items">Enter Items (one per line)</label>
-                    <textarea id="items" rows="8" placeholder="Wall Level
-Building Level
-..."></textarea>
+                    <div class="items-header">
+                        <label>Items & Weights</label>
+                        <button id="addItemBtn" class="btn btn-add" title="Add Item"><i class="fas fa-plus"></i> Add</button>
+                    </div>
+                    <div id="itemsContainer">
+                        <!-- Items will be dynamically added here -->
+                    </div>
                 </div>
 
                 <div class="panel-section">
@@ -41,6 +44,9 @@ Building Level
                         <button class="btn btn-preset" data-preset="speed">Speed</button>
                         <button class="btn btn-preset" data-preset="magic">Magic</button>
                         <button class="btn btn-preset" data-preset="iq">IQ</button>
+                        <button class="btn btn-preset" data-preset="skill">Skill</button>
+                        <button class="btn btn-preset" data-preset="weapon">Weapon</button>
+                        <button class="btn btn-preset" data-preset="elements">Elements</button>
                     </div>
                 </div>
 
@@ -59,7 +65,7 @@ Building Level
                 </div>
 
                 <div class="main-actions">
-                    <button id="updateBtn" class="btn btn-secondary">Update</button>
+                    <button id="updateBtn" class="btn btn-secondary">Update Wheel</button>
                     <button id="spinBtn" class="btn btn-primary"><i class="fas fa-play"></i> Spin!</button>
                 </div>
 
@@ -89,6 +95,9 @@ Building Level
             </div>
         </div>
     </div>
+
+    <!-- Create a 'sounds' folder and place these files in it -->
+    <!-- You can find free sounds online for 'tick.mp3', 'win.mp3', 'click.mp3' -->
     
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script>
