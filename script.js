@@ -37,40 +37,40 @@ class PowerWheel {
             magic: ['No Magic','Latent Power','Basic Spells','Apprentice', 'Intermediate Magic','Advanced Runes','Mage','Archmage', 'Grand Wizard', 'Sage', 'Planetary Magic','Solar Magic','Reality Warping','Conceptual Manipulation','Metaphysical Power','Causality Manipulation','Plot Manipulation', 'Omnipotence'],
             iq: ['Primitive', 'Below Average','Average','Above Average','Smart','Gifted','Genius','Super Genius','Prodigy','Mega Genius', 'Superhuman','Cosmic Intelligence','Nigh-Omniscient','Omniscient'],
             skill: ['Clumsy', 'Regular Human', 'Amateur','Trained Fighter','Martial Artist','Expert Brawler', 'Black Belt', 'Tactical Genius','Planetary Champion','Precognitive Fighter','Reactive Evolution','Galactic Warrior','Plot Armor'],
-                weapon: [
-        // --- Basic & Improvised ---
-        'Fists', 'Club', 'Staff', 'Throwing Rocks', 'Improvised Shield',
-        // --- Melee - Daggers & Short Blades ---
-        'Dagger', 'Knife', 'Kukri', 'Kris', 'Stiletto', 'Tanto', 'Seax', 'Parrying Dagger', 
-        // --- Melee - Swords ---
-        'Shortsword', 'Gladius', 'Arming Sword', 'Broadsword', 'Scimitar', 'Falchion', 'Messer', 'Katana', 'Rapier', 'Longsword', 'Bastard Sword', 'Claymore', 'Zweihänder', 'Flamberge', 
-        // --- Melee - Axes ---
-        'Hand Axe', 'Battle Axe', 'Dane Axe', 'War Axe', 'Double-Headed Axe', 
-        // --- Melee - Blunt & Crushing ---
-        'Mace', 'Morning Star', 'War Hammer', 'Flail', 'War Pick', 'Quarterstaff', 'Cestus', 'Brass Knuckles', 'Sledgehammer',
-        // --- Melee - Polearms ---
-        'Spear', 'Boar Spear', 'Trident', 'Javelin', 'Pike', 'Lance', 'Glaive', 'Naginata', 'Guisarme', 'Voulge', 'Billhook', 'Poleaxe', 'Halberd', 'War Scythe',
-        'Sling', 'Shortbow', 'Longbow', 'Recurve Bow', 'Light Crossbow', 'Heavy Crossbow', 'Repeating Crossbow', 
-        // --- Ranged - Firearms ---
-        'Hand Cannon', 'Arquebus', 'Flintlock Pistol', 'Musket', 'Blunderbuss', 'Revolver', 'Lever-Action Rifle', 'Pump-Action Shotgun', 'Bolt-Action Rifle', 'Submachine Gun', 'Assault Rifle',
-        // --- Higher Concepts ---
-        'Enchanted Weapon', 'Sentient Weapon', 'Energy Blade', 'Divine Bow', 'Reality-Bending Pencil', 'Cosmic Staff', 'Dimensional Sword', 'Time Manipulating Dagger', 'Quantum Gun', 'Multiversal Axe', 'Omnipotent Hammer'
-    ],
-        elements: [
-        // --- Foundational ---
-        'Fire', 'Water', 'Earth', 'Air', 
-        // --- Physical & Environmental ---
-        'Ice', 'Lightning', 'Plant', 'Wood', 'Metal', 'Sand', 'Magma', 'Steam', 'Mud', 'Smoke', 'Crystal', 'Glass', 'Ash', 'Poison', 'Acid',
-        // --- Energy & Force ---
-        'Light', 'Darkness', 'Shadow', 'Sound', 'Vibration', 'Kinetic Force', 'Gravity', 'Magnetism', 'Plasma', 'Radiation',
-        // --- Biological & Ethereal ---
-        'Life', 'Death', 'Blood', 'Bone', 'Flesh', 'Spirit', 'Soul', 'Aura', 'Chi', 'Mind', 'Dream', 'Emotion', 'Illusion',
-        // --- Abstract & Conceptual ---
-        'Time', 'Space', 'Aether', 'Nether', 'Chaos', 'Order', 'Creation', 'Destruction', 'Luck', 'Fate', 'Logic', 'Knowledge', 'Nothingness', 'Possibility', 'Reality', 
-        // --- Ultimate Tier ---
-        'Vector Manipulation', 'Spirit', 'ERASURE', 'VOID', 'N-EX'
-    ]
-};
+            weapon: [
+                // --- Basic & Improvised ---
+                'Fists', 'Club', 'Staff', 'Throwing Rocks', 'Improvised Shield',
+                // --- Melee - Daggers & Short Blades ---
+                'Dagger', 'Knife', 'Kukri', 'Kris', 'Stiletto', 'Tanto', 'Seax', 'Parrying Dagger',
+                // --- Melee - Swords ---
+                'Shortsword', 'Gladius', 'Arming Sword', 'Broadsword', 'Scimitar', 'Falchion', 'Messer', 'Katana', 'Rapier', 'Longsword', 'Bastard Sword', 'Claymore', 'Zweihänder', 'Flamberge',
+                // --- Melee - Axes ---
+                'Hand Axe', 'Battle Axe', 'Dane Axe', 'War Axe', 'Double-Headed Axe',
+                // --- Melee - Blunt & Crushing ---
+                'Mace', 'Morning Star', 'War Hammer', 'Flail', 'War Pick', 'Quarterstaff', 'Cestus', 'Brass Knuckles', 'Sledgehammer',
+                // --- Melee - Polearms ---
+                'Spear', 'Boar Spear', 'Trident', 'Javelin', 'Pike', 'Lance', 'Glaive', 'Naginata', 'Guisarme', 'Voulge', 'Billhook', 'Poleaxe', 'Halberd', 'War Scythe',
+                'Sling', 'Shortbow', 'Longbow', 'Recurve Bow', 'Light Crossbow', 'Heavy Crossbow', 'Repeating Crossbow',
+                // --- Ranged - Firearms ---
+                'Hand Cannon', 'Arquebus', 'Flintlock Pistol', 'Musket', 'Blunderbuss', 'Revolver', 'Lever-Action Rifle', 'Pump-Action Shotgun', 'Bolt-Action Rifle', 'Submachine Gun', 'Assault Rifle',
+                // --- Higher Concepts ---
+                'Enchanted Weapon', 'Sentient Weapon', 'Energy Blade', 'Divine Bow', 'Reality-Bending Pencil', 'Cosmic Staff', 'Dimensional Sword', 'Time Manipulating Dagger', 'Quantum Gun', 'Multiversal Axe', 'Omnipotent Hammer'
+            ],
+            elements: [
+                // --- Foundational ---
+                'Fire', 'Water', 'Earth', 'Air',
+                // --- Physical & Environmental ---
+                'Ice', 'Lightning', 'Plant', 'Wood', 'Metal', 'Sand', 'Magma', 'Steam', 'Mud', 'Smoke', 'Crystal', 'Glass', 'Ash', 'Poison', 'Acid',
+                // --- Energy & Force ---
+                'Light', 'Darkness', 'Shadow', 'Sound', 'Vibration', 'Kinetic Force', 'Gravity', 'Magnetism', 'Plasma', 'Radiation',
+                // --- Biological & Ethereal ---
+                'Life', 'Death', 'Blood', 'Bone', 'Flesh', 'Spirit', 'Soul', 'Aura', 'Chi', 'Mind', 'Dream', 'Emotion', 'Illusion',
+                // --- Abstract & Conceptual ---
+                'Time', 'Space', 'Aether', 'Nether', 'Chaos', 'Order', 'Creation', 'Destruction', 'Luck', 'Fate', 'Logic', 'Knowledge', 'Nothingness', 'Possibility', 'Reality',
+                // --- Ultimate Tier ---
+                'Vector Manipulation', 'Spirit', 'ERASURE', 'VOID', 'N-EX'
+            ]
+        };
 
         // --- Audio Pool for Ticks ---
         this.tickAudioPool = [];
@@ -81,7 +81,6 @@ class PowerWheel {
             audio.volume = 0.4;
             this.tickAudioPool.push(audio);
         }
-        // --- END of Audio Pool ---
         
         // Other sounds
         this.sounds = {
@@ -111,22 +110,17 @@ class PowerWheel {
         this.addItemBtn.addEventListener('click', () => { this.playSound('click'); this.addItemRow(); });
     }
 
-    // --- UPDATED playSound method ---
     playSound(soundName) {
         if (soundName === 'tick') {
-            // Play next sound in the pool
             const sound = this.tickAudioPool[this.currentTickIndex];
             sound.currentTime = 0;
             sound.play().catch(e => console.error("Error playing tick sound:", e));
-            // Move to the next sound in the pool for the next tick
             this.currentTickIndex = (this.currentTickIndex + 1) % this.tickPoolSize;
         } else if (this.sounds[soundName]) {
-            // Handle other, non-pooled sounds
             this.sounds[soundName].currentTime = 0;
             this.sounds[soundName].play().catch(e => console.error(`Could not play ${soundName} sound:`, e));
         }
     }
-    // --- END of updated method ---
 
     showModal() { this.modalOverlay.classList.add('show'); }
     hideModal() { this.modalOverlay.classList.remove('show'); }
@@ -220,7 +214,7 @@ class PowerWheel {
         ctx.fillStyle = this.colors[index % this.colors.length];
         ctx.fill();
     
-        ctx.lineWidth = 0.2; // Your visual change
+        ctx.lineWidth = 0.2;
         ctx.strokeStyle = 'rgba(0,0,0,0.2)';
         ctx.stroke();
     
@@ -230,7 +224,7 @@ class PowerWheel {
     
         const textStartRadius = radius * 0.1;
         const textAvailableLength = radius * 0.85;
-        let fontSize =  Math.min(20, sliceAngle * 150); // Your visual change
+        let fontSize =  Math.min(20, sliceAngle * 150);
 
         ctx.font = `700 ${fontSize}px ${getComputedStyle(document.body).fontFamily}`;
         while (ctx.measureText(text).width > textAvailableLength && fontSize > 8) {
@@ -286,8 +280,6 @@ class PowerWheel {
         const startTime = performance.now();
         const duration = this.settings.duration * 1000;
         
-        // This logic is now paired with the audio pool and will work correctly.
-        // We will tick for every item on the wheel, regardless of weight, for a consistent sound.
         const tickAngle = (2 * Math.PI) / this.items.length;
         let lastTickIndex = Math.floor(Math.abs(startRotation) / tickAngle);
 
